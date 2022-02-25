@@ -24,7 +24,16 @@ main {
 }
 
 #logo-container {
+    display: inline-block;
     padding-top: 10px;
+    background: #47a0ce;
+    position: relative;
+    top: 20px;
+    padding: 10px;
+}
+
+#logo-container h2 {
+    margin-bottom: 0;
 }
 
 .bg-dark {
