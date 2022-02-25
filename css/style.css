@@ -17,6 +17,12 @@ nav a {
     margin: 0 20px;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    padding: 60px 15px;
+}
+
 #logo-container {
     padding-top: 10px;
 }
@@ -38,9 +44,24 @@ html, body {
 
 #hero {
     background: black;
-    background-image: url("../images/background-png");
+    background-image: url("../images/background.png");
     color: white;
     text-align: center;
     padding: 60px 15px;
     font-size: 42px;
+}
+
+.callout {
+    border: 5px dotted #47a0ce;
+    text-align: center;
+    margin: 0 30px;
+}
+
+i {
+    position: relative;
+    top: 10px;
+}
+
+footer {
+    text-align: center;
 }
